@@ -1,11 +1,8 @@
 # Personal Finance Manager 💸
 
-This is the final project for my first midterm of the **Python Practical Classes**  
-in the **Master’s Program at ELTE** 🏦.
+This is the final project for my first midterm of the **Python Practical Classes** in the **Master’s Program at ELTE** 🏦.
 
-It is a **Command-Line Interface (CLI)** application for managing personal finance:  
-accounts, transactions, and budgets.  
-The project uses **virtual environments**, **pytest**, and a simple modular architecture.
+It is a **Command-Line Interface (CLI)** application for managing personal finance: accounts, transactions, and budgets. The project uses **virtual environments**, **pytest**, and a simple modular architecture.
 
 ---
 
