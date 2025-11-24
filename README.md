@@ -1,6 +1,9 @@
-# Personal Finance Manager (Python CLI)
+# Personal Finance Manager 💸
 
-This is a command–line application for managing personal finance:  
+This is the final project for my first midterm of the **Python Practical Classes**  
+in the **Master’s Program at ELTE** 🏦.
+
+It is a **Command-Line Interface (CLI)** application for managing personal finance:  
 accounts, transactions, and budgets.  
 The project uses **virtual environments**, **pytest**, and a simple modular architecture.
 
@@ -27,33 +30,6 @@ personalfinance/
 ├── pytest.ini.py
 ├── requirements.txt
 
-```
-
----
-
-## 🔧 Virtual Environment Setup
-
-### 1. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 2. Activate it
-
-#### Windows (PowerShell):
-```powershell
-venv\Scripts\Activate
-```
-
-#### Windows (CMD):
-```cmd
-venv\Scripts\activate.bat
-```
-
-#### macOS / Linux:
-```bash
-source venv/bin/activate
 ```
 
 ---
@@ -106,42 +82,7 @@ If you install new packages inside the virtual environment, regenerate:
 pip freeze > requirements.txt
 ```
 
-This file must be included when submitting the project.
-
-Example:
-
-```
-pytest==8.2.0
-pluggy==1.4.0
-iniconfig==2.0.0
-colorama==0.4.6
-```
-
 ---
-
-## 🚫 Note About Virtual Environments
-
-Do **not** upload the `venv/` folder.  
-Use `.gitignore` to exclude it:
-
-```
-venv/
-```
-
----
-
-## ✔ Submission Requirements Checklist
-
-- [x] The project runs inside an activated virtual environment  
-- [x] `requirements.txt` lists all necessary packages  
-- [x] Tests run correctly with pytest  
-- [x] No virtual environment is included in the submission  
-
----
-
-## 📚 License
-
-This project is for educational purposes (BME / Python course).
 
 ## 👨‍💻 Author
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-André%20Llumiquinga-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/andre-llc/)
